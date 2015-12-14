@@ -4,7 +4,7 @@ This is a small module to debug redux app.
 After the setup, just press `shift+s` by default to see a prompt of your current state.
 You can save it for later use, or replace it with another one.
 
-
+<img width="400" src="http://pierrickouw.org/images/screenredux.gif"/>
 
 ### Setup
 `npm i --save-dev redux-devtools-prompt-state`
