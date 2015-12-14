@@ -13,6 +13,10 @@
     "redux",
     "react"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pierrickouw/redux-devtools-prompt-state.git"
+  },
   "author": "Pierrickouw (pierrick.wauquier@gmail.com)",
   "license": "ISC",
   "devDependencies": {
