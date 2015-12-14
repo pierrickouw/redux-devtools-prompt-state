@@ -2,11 +2,12 @@
   "name": "redux-devtools-prompt-state",
   "version": "0.0.1",
   "description": "A redux devtools utility to prompt / copy / paste state of an app",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --recursive",
     "lint": "eslint src test",
-    "build": "babel src --out-dir dist"
+    "build": "babel src --out-dir dist",
+    "prepublish": "npm run clean && npm run build"
   },
   "keywords": [
     "redux",
