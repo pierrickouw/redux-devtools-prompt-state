@@ -1,6 +1,6 @@
 {
   "name": "redux-devtools-prompt-state",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A redux devtools utility to prompt / copy / paste state of an app",
   "main": "dist/index.js",
   "scripts": {
