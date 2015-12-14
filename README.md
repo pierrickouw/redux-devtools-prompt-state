@@ -7,11 +7,15 @@ You can save it for later use, or replace it with another one.
 
 
 ### Setup
+`npm i --save-dev redux-devtools-prompt-state`
+
+Be careful to only put this in dev - use a flag in your build! (or be aware in prod)
+
 Create your store with the `replaceState` enhancers
 ``` javascript
 import { createStore, compose } from 'redux'
 import rootReducer from '../reducers'
-import { replaceState, replacer } from '../../../../redux-devtools-prompt-state/dist/index';
+import { replaceState, replacer } from 'redux-devtools-prompt-state';
 
 function configureStore(initialState)
 {
