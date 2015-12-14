@@ -1,4 +1,4 @@
-## What is it?
+## redux-devtools-prompt-state
 
 This is a small module to debug redux app.
 After the setup, just press `shift+s` by default to see a prompt of your current state.
