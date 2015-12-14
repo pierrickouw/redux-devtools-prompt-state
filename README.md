@@ -29,4 +29,4 @@ function configureStore(initialState)
 
 #### `replaceState`
 
-`replacer(store, keys)` takes an array of key sequences as second arguments as defined [here](https://craig.is/killing/mice)
+`replacer(store, keys)` takes an array of key sequences as second argument as defined [here](https://craig.is/killing/mice)
